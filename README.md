@@ -19,11 +19,12 @@ pipenv run streamlit run app.py
 ```
 
 ### Run locally without Pipenv
+
 ```bash
 pip install streamlit==0.47.3
 
 IPDATA_API_KEY=xxxxx streamlit run app.py
-``
+```
 
 ### Deploy on Heroku
 Create Heroku project and push to Heroku as  usual with `git push heroku master`. There's a fair amount of fussing around with deploying Streamlit on Heroku at this moment. See `setup.sh` and the following for more details:
